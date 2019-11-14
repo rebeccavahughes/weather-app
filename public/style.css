@@ -3,6 +3,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    font-family: Metrophobic;
+    
 }
 body{
     /* background-image: linear-gradient(to right, cyan, aquamarine ); */
@@ -21,6 +23,10 @@ h1{
 
 h1, h3, ul, li{
     font-family: Metrophobic;
+    color: whitesmoke;
+}
+
+label{
     color: whitesmoke;
 }
 
@@ -43,7 +49,9 @@ h1, h3, ul, li{
     margin-bottom: 2vh;
 }
 .button{
-    display: inline-block;
+    display: block;
+    color: black;
+    height: 3vh;
 }
 .result{
     display: block;
