@@ -1,8 +1,12 @@
-<h1>5 Day Forecast</h1>
+<h1>5 Day Forecast{{city}}</h1>
 
 <div class="inputBox">
-<form action="/" method="POST">
+<form action="/fivedays" method="POST">
+<label for="location">Location:</label>
 <input type="text" name="location">
+<br>
+<label for="countryCode">Country:</label>
+<input type="text" name="countryCode">
 <div class="button">
 <input type="submit" value="Add City">
 </div>
